@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<game>
+  <zombies>
+    <zombie type="1" hpValue="100" moveSpeed="1" attackSpeed="4000" attackValue="15" defenceValue="0">
+       <action type="1" width="166" height="144" num="22" src="picture\Zombies\NormalZombie\move\"/>
+       <action type="4" width="166" height="144" num="21" src="picture\Zombies\NormalZombie\attack\"/>
+       <action type="3" width="166" height="144" num="10" src="picture\Zombies\NormalZombie\die\"/>
+    </zombie>
+    <zombie type="2" hpValue="100" moveSpeed="2" attackSpeed="3000" attackValue="15" defenceValue="0">
+       <action type="1" width="166" height="144" num="12" src="picture\Zombies\FlagZombie\move\"/>
+       <action type="4" width="166" height="144" num="11" src="picture\Zombies\FlagZombie\attack\"/>
+       <action type="3" width="166" height="144" num="10" src="picture\Zombies\FlagZombie\die\"/>
+    </zombie>
+    <zombie type="3" hpValue="100" moveSpeed="1" attackSpeed="2000" attackValue="20" defenceValue="5">
+       <action type="1" width="166" height="144" num="21" src="picture\Zombies\ConeHeadZombie\move\"/>
+       <action type="4" width="166" height="144" num="11" src="picture\Zombies\ConeHeadZombie\attack\"/>
+       <action type="3" width="166" height="144" num="10" src="picture\Zombies\ConeHeadZombie\die\"/>
+    </zombie>
+    <zombie type="4" hpValue="100" moveSpeed="2" attackSpeed="2000" attackValue="25" defenceValue="5">
+       <action type="1" width="166" height="144" num="15" src="picture\Zombies\BucketHeadZombie\move\"/>
+       <action type="4" width="166" height="144" num="11" src="picture\Zombies\BucketHeadZombie\attack\"/>
+       <action type="3" width="166" height="144" num="10" src="picture\Zombies\BucketHeadZombie\die\"/>
+    </zombie>
+  </zombies>
+  <plants>
+     <plant type="1" hpValue="50" attackSpeed="10000" bulletType="1" defenceValue="0" icon="picture\Plants\Sunner\sunner.bmp" price="50">
+       <action type="2" width="73" height="74" num="18" src="picture\Plants\Sunner\stand\"/>
+     </plant>
+     <plant type="2" hpValue="75" attackSpeed="2000" bulletType="2" defenceValue="0" icon="picture\Plants\Peashooter\peashooter.bmp" price="100">
+       <action type="2" width="71" height="71" num="13" src="picture\Plants\Peashooter\stand\"/>
+     </plant>
+     <plant type="3" hpValue="75" attackSpeed="0" bulletType="0" defenceValue="10" icon="picture\Plants\WallNut\wallnut.bmp" price="50">
+       <action type="2" width="65" height="73" num="16" src="picture\Plants\WallNut\stand\"/>
+     </plant>
+     <plant type="4" hpValue="75" attackSpeed="2000" bulletType="3" defenceValue="0" icon="picture\Plants\Repeater\repeater.bmp" price="200">
+       <action type="2" width="73" height="71" num="15" src="picture\Plants\Repeater\stand\"/>
+     </plant>
+  </plants>
+  <bullets>
+     <bullet type="1" moveSpeed="0" attackValue="0" src="picture\Bullet\Sun\" num="22" width="78" height="78" survival="5000"/>
+     <bullet type="2" moveSpeed="25" attackValue="15" num="1" src="picture\Bullet\normal.bmp" width="56" height="34" survival="-1"/>
+     <bullet type="3" moveSpeed="25" attackValue="25" num="1" src="picture\Bullet\two.bmp" width="56" height="34" survival="-1"/>
+  </bullets>
+</game>
